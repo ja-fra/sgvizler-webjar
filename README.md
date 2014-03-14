@@ -5,12 +5,16 @@ Webjar for [Sgvizler][1], a javascript which renders the result of `SPARQL SELEC
 ## Current Version
 
 ```xml
+<!-- not yet available! -->
 <dependency>
     <groupId>org.webjars</groupId>
     <artifactId>sgvizler</artifactId>
-    <version>0.6-SNAPSHOT</version>
+    <version>0.6</version>
 </dependency>
 ```
+
+You can download the webjar [here](https://github.com/ja-fra/sgvizler-webjar/releases/tag/v0.6)
+until the webjar is available on maven-central.
 
 ## Dependencies
 
