@@ -5,7 +5,6 @@ Webjar for [Sgvizler][1], a javascript which renders the result of `SPARQL SELEC
 ## Current Version
 
 ```xml
-<!-- not yet available! -->
 <dependency>
     <groupId>org.webjars</groupId>
     <artifactId>sgvizler</artifactId>
@@ -13,25 +12,12 @@ Webjar for [Sgvizler][1], a javascript which renders the result of `SPARQL SELEC
 </dependency>
 ```
 
-You can download the webjar [here](https://github.com/ja-fra/sgvizler-webjar/releases/tag/v0.6)
-until the webjar is available on maven-central.
-
 ## Dependencies
 
-Besides *jQuery*, which can be included using webjars, Sgvizler also requires the [Google Visualization API][2], so don't forget to include it:
+Sgvizler requires the [Google Visualization API][2], so don't forget to include it:
 
 ```html
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-```
-
-```xml
-<dependencies>
-    <dependency>
-        <groupId>org.webjars</groupId>
-        <artifactId>jquery</artifactId>
-        <version>1.9.0</version>
-    </dependency>
-</dependencies>
 ```
 
 ## License
